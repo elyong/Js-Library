@@ -1,7 +1,7 @@
 {
   "name": "elyongwj_js_library",
-  "version": "1.0.1",
-  "description": "造轮子一直都是前端开发中绕不过去的槛，作为初学者倒是不用想太多，自己私底下一定要造，你造轮子写的每一行代码都会化成你的底蕴。",
+  "version": "1.2.0",
+  "description": "elyongwj的js库",
   "main": "js/base.js",
   "directories": {
     "test": "test"
@@ -36,7 +36,8 @@
   },
   "scripts": {
     "test": "npx jest",
-    "coverage": "npx jest --coverage"
+    "coverage": "npx jest --coverage",
+    "precommit": "npx jest --coverage"
   },
   "repository": {
     "type": "git",
