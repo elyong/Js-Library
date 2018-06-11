@@ -1,6 +1,6 @@
 {
   "name": "elyongwj_js_library",
-  "version": "1.3.0",
+  "version": "1.5.0",
   "description": "elyongwj的js库",
   "main": "js/base.js",
   "directories": {
@@ -36,12 +36,11 @@
   },
   "scripts": {
     "test": "npx jest",
-    "coverage": "npx jest --coverage",
-    "precommit": "npx jest --coverage"
+    "coverage": "npx jest --coverage"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run coverage"
+      "pre-commit": "npx jest --coverage"
     }
   },
   "repository": {
